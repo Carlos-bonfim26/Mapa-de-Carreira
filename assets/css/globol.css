@@ -1,0 +1,23 @@
+:root{
+    --color-primary:#162845;
+    --color-secundary:#00ffea;
+    --color-terceary:#a2fff0;;
+}
+header{
+    background-color: var(--color-primary) !important;
+}
+.svg-inline--fa{
+    color: var(--color-primary) !important;
+}
+.resume-section-title{
+    color: var(--color-primary) !important;
+}
+.progress-bar{
+    background-color: var(--color-secundary) !important;
+}
+.resume-timeline::before{
+    background-color: var(--color-terceary) !important;
+}
+.resume-timeline-item::before{
+    border: var(--color-primary) 4.5px solid !important;
+}
